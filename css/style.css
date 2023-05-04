@@ -1,0 +1,374 @@
+/* geral */
+body, p, h1, h2, input, textarea {
+    font-family: 'Noto Sans JP', sans-serif;
+    position: relative;
+}
+
+h1 {
+    line-height: 300%; 
+}
+
+h2 {
+    line-height: 300%;
+    font-size: 30px;
+}  
+
+/*navbar*/
+#navbar {
+    background-color: rgb(190, 84, 142);
+    box-shadow: 5px 5px 0px -1px lightpink;
+    border-radius:5px;
+    color: white;
+    padding: 0 15px;
+    height: 60px;
+}
+
+#navbar h2, #navbar ul, #navbar-list li , #navbar nav {
+    display: inline-block;
+}
+
+#navbar h2 {
+    margin: 0;
+    line-height: 60px;
+    margin-left: 55px;
+}
+
+#navbar img {
+    height: 40px;
+    position: absolute;
+    top: 18px;
+}
+
+#navbar nav {
+    float: right;
+    font-size: 15px;
+    color: white;
+}
+
+#navbar ul {
+    margin-top: 22px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#navbar-list li a:hover {
+    border-bottom: 1px solid #ff43d0;
+    transition:800ms ease all;   
+  }
+
+/*links*/
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+  }
+
+  /* banner */
+
+  #main-banner {
+    height: 70vh;
+    background-image: linear-gradient(to bottom, lightpink, rgb(182, 122, 187));
+    background-size: cover;
+    border-radius:5px;
+  }
+
+  #banner-info {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+  }
+  #banner-info img {
+    height: 210px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 0px -1px lightpink;
+    padding: 13px;
+    margin-top: -30px;
+}
+
+    #banner-info p {
+        font-size: 23px;
+        font-weight: 510;
+        font-style: italic;
+    }
+
+    /* about*/
+
+    #about-section {
+        height: 70vh;
+        background-image: linear-gradient(to bottom, lightpink, rgb(182, 122, 187));
+        background-size: cover;
+        border-radius:5px;
+        text-align: center;
+        color: #fff;
+    }
+
+    #about-section h2 {
+        margin-bottom: -20px;
+    }
+
+    #about-section p {
+        max-width: 650px;
+        margin-right: auto;
+        margin-left: auto;
+        line-height: 25px;
+        font-size: 16px;
+        text-align: justify;
+    }
+
+  /* skills */
+
+#skill-section {
+  margin-top: -120px;
+  background-color: rgb(253, 233, 236);
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  border: 2px solid lightpink;
+  border-radius: 10px;
+}
+
+#skill-section .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.skills-container {
+  flex: 1 1 1;
+  text-align: center;
+  padding: 70px 30px;
+  width: 800px;
+}
+
+.central {
+  border-left: 2px solid lightpink;
+  border-right: 2px solid lightpink;
+  width: 800px;
+}
+
+.skills-container h3 {
+  color: rgb(252, 93, 141);
+  font-size: 20px;
+}
+
+.skills-container img {
+  height: 60px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 0px 10px 0px 10px lightpink;
+  border-top: 1px solid lightpink;
+  border-left: 1px solid lightpink;
+  border-right: 1px solid lightpink;
+  border-bottom: 1px solid lightpink;
+  box-shadow: 6px 6px 0px -1px lightpink
+}
+
+.skills-container .subtitle {
+  font-weight: bold;
+  color: rgb(255, 122, 162);
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 17px;
+  text-align: center;
+}
+
+.skills-container p {
+  line-height: 17px;
+  font-size: 15px;
+  color: rgb(77, 76, 76);
+  text-align: justify;
+  
+}
+
+/* jobs */
+
+#jobs-section {
+    text-align: center;
+    height: 75vh;
+    background-image: linear-gradient(to bottom, lightpink, rgb(182, 122, 187));
+    background-size: cover;
+    border-radius:5px;
+}
+  
+  #jobs-section h2 {
+    color: #fff;
+    margin-bottom: -20px;
+  }
+  
+  #jobs-section p {
+    margin-bottom: 30px;
+    color: rgb(77, 76, 76);
+    font-size: 16px;
+    font-style: italic;
+  }
+  
+  #jobs-section a {
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bold;
+  }
+
+  #jobs-section a:hover {
+    border-bottom: 1px solid #ff43d0;
+    transition:800ms ease all;
+  }
+  
+  .job-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+  
+  .job-box {
+    flex: 1 1 200px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 0px 10px 0px 10px lightpink;
+    border-top: 1px solid lightpink;
+    border-left: 1px solid lightpink;
+    border-right: 1px solid lightpink;
+    border-bottom: 1px solid lightpink;
+    box-shadow: 6px 6px 0px -1px lightpink;
+  }
+  
+  .proj1 {
+    background-image: url('../img/proj1.png');
+    height: 275px;
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 5px 5px 0px -1px lightpink;
+  }
+    
+  /* footer */
+  
+  footer {
+    color: #FFF;
+    text-align: center;
+    height: 85vh;
+    background-image: linear-gradient(to bottom, lightpink, rgb(182, 122, 187));
+    background-size: cover;
+    border-radius:5px;
+    }
+
+  footer h2 {
+    margin-top: 1%;
+    margin-bottom: -3%;
+  }
+
+ footer img {
+    height: 80px;
+    margin: 30px 0;
+    margin-top: 1%;
+    margin-bottom: 2%;
+  }
+  
+  footer p {
+    font-style: italic;
+    color: rgb(77, 76, 76);
+    font-size: 14px;
+  }
+  
+  footer form {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer input, footer textarea {
+    border: none;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    width: 100%;
+    display: block;
+  }
+  
+  footer .detail {
+    font-weight: bold;
+  }
+
+@media (max-width: 768px) {
+    /* Navbar */
+    #navbar h2 {
+        margin-left: 20px;
+    }
+
+    #navbar img {
+        height: 30px;
+        top: 15px;
+    }
+
+    #navbar nav {
+        font-size: 12px;
+    }
+
+    /* Banner */
+    #banner-info {
+        width: 80%;
+    }
+
+    #banner-info img {
+        height: 150px;
+    }
+
+    #banner-info p {
+        font-size: 18px;
+    }
+
+    /* About */
+    #about-section p {
+        font-size: 14px;
+    }
+
+    /* Skills */
+    #skill-section .container {
+        flex-wrap: wrap;
+    }
+
+    .skills-container {
+        width: 100%;
+        padding: 50px 10px;
+    }
+
+    .central {
+        border: none;
+        width: 100%;
+    }
+
+    /* Jobs */
+    .job-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .job-box {
+        margin: 15px 0;
+    }
+
+    /* Footer */
+    footer h2 {
+        margin-top: 5%;
+        margin-bottom: -5%;
+    }
+
+    footer img {
+        height: 60px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    footer form {
+        width: 250px;
+    }
+}
